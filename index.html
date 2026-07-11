@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chá de Casa Nova - Mário e Família. Confirme sua presença e confira nossa lista de presentes.">
+    <title>Chá de Casa Nova - Mário & Família</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botanical Decorative Background Elements -->
+    <div class="botanical-decor botanical-left" aria-hidden="true">
+        <svg viewBox="0 0 100 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 180 C30 150, 20 100, 50 60 C60 45, 75 30, 85 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" opacity="0.15"/>
+            <path d="M50 60 C40 55, 30 65, 35 75 C40 85, 55 80, 50 60 Z" fill="var(--primary)" opacity="0.12"/>
+            <path d="M30 110 C20 105, 10 115, 15 125 C20 135, 35 130, 30 110 Z" fill="var(--primary)" opacity="0.12"/>
+            <path d="M68 35 C60 30, 52 38, 56 46 C60 54, 72 50, 68 35 Z" fill="var(--primary)" opacity="0.12"/>
+        </svg>
+    </div>
+    <div class="botanical-decor botanical-right" aria-hidden="true">
+        <svg viewBox="0 0 100 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M90 180 C70 150, 80 100, 50 60 C40 45, 25 30, 15 10" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" opacity="0.15"/>
+            <path d="M50 60 C60 55, 70 65, 65 75 C60 85, 45 80, 50 60 Z" fill="var(--primary)" opacity="0.12"/>
+            <path d="M70 110 C80 105, 90 115, 85 125 C80 135, 65 130, 70 110 Z" fill="var(--primary)" opacity="0.12"/>
+            <path d="M32 35 C40 30, 48 38, 44 46 C40 54, 28 50, 32 35 Z" fill="var(--primary)" opacity="0.12"/>
+        </svg>
+    </div>
+
+    <a href="#inicio" class="skip-link">Pular para o conteúdo principal</a>
+    <header class="main-header">
+        <div class="logo">M · E · N</div>
+        <nav class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#galeria">Nossa Família</a>
+            <a href="#rsvp">RSVP</a>
+            <a href="#presentes">Lista de Presentes</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <span class="hero-subtitle">Sejam bem-vindos ao nosso novo recomeço</span>
+                    <h1 class="hero-title">Nosso Chá de<br><span class="highlight">Casa Nova</span></h1>
+                    <p class="hero-description">
+                        Construir um lar é tecer amor em cada detalhe. Queremos celebrar esta nova fase da nossa família ao lado das pessoas que mais amamos.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#rsvp" class="btn btn-primary">Confirmar Presença</a>
+                        <a href="#presentes" class="btn btn-outline">Lista de Presentes</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual fade-in-delay-1">
+                    <div class="hero-img-wrapper">
+                        <img src="assets/images/foto2.jpg" alt="Família Mário, Eliane e Nicolas" class="hero-main-img">
+                        <div class="hero-img-badge">
+                            <i data-lucide="home"></i>
+                            <span>Nosso Lar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event Details Card in Hero -->
+            <div class="container">
+                <div class="event-details-wrapper reveal-up">
+                    <div class="event-details">
+                        <div class="detail-item">
+                            <i data-lucide="calendar"></i>
+                            <div>
+                                <strong class="detail-title">Data</strong>
+                                <p>Sábado, 18 de Julho de 2026</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <strong class="detail-title">Horário</strong>
+                                <p>A partir das 17:00h</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <strong class="detail-title">Local</strong>
+                                <p>Rua Seike Sato, 511 - Prédio da FBS Prime</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-warning">
+                        <i data-lucide="info"></i>
+                        <span>Importante: Chegue às <strong>16:30h</strong>. Nossa programação começará pontualmente às <strong>17:00h</strong>!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section (Asymmetric Pinterest Grid) -->
+        <section id="galeria" class="gallery-section reveal-fade">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Nossos Momentos</span>
+                    <h2>Nossa Família</h2>
+                    <p>Um pouco da nossa caminhada e do amor que enche a nossa nova casa de vida.</p>
+                </div>
+                
+                <div class="asymmetric-grid reveal-fade">
+                    <div class="grid-item card-large">
+                        <img src="assets/images/foto1.jpg" alt="Família Mário - Momento 1" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Aventuras juntos</span>
+                        </div>
+                    </div>
+                    <div class="grid-item card-tall">
+                        <img src="assets/images/foto2.jpg" alt="Família Mário - Momento 2" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Nossa alegria</span>
+                        </div>
+                    </div>
+                    <div class="grid-item card-normal">
+                        <img src="assets/images/foto3.jpg" alt="Família Mário - Momento 3" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Sorrisos diários</span>
+                        </div>
+                    </div>
+                    <div class="grid-item card-wide">
+                        <img src="assets/images/foto4.jpg" alt="Família Mário - Momento 4" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Celebrando a vida</span>
+                        </div>
+                    </div>
+                    <div class="grid-item card-tall">
+                        <img src="assets/images/foto5.jpg" alt="Família Mário - Momento 5" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Amor sem fim</span>
+                        </div>
+                    </div>
+                    <div class="grid-item card-normal">
+                        <img src="assets/images/foto6.jpg" alt="Família Mário - Momento 6" loading="lazy">
+                        <div class="img-overlay">
+                            <span>Novo recomeço</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP Section -->
+        <section id="rsvp" class="rsvp-section reveal-fade">
+            <div class="container">
+                <div class="rsvp-card reveal-up">
+                    <div class="rsvp-info-card">
+                        <span class="rsvp-tag">Confirmação</span>
+                        <h2>Você vem celebrar conosco?</h2>
+                        <p>Por favor, confirme sua presença até o dia 10 de Agosto de 2026 para que possamos organizar tudo com muito carinho.</p>
+                        <div class="decor-line"></div>
+                        <p class="rsvp-subtext">Sua presença é o maior presente que poderíamos receber!</p>
+                    </div>
+                    
+                    <div class="rsvp-form-card">
+                        <form id="form-rsvp">
+                            <div class="input-group">
+                                <label for="rsvp-nome">Selecione seu Nome</label>
+                                <select id="rsvp-nome" required>
+                                    <option value="" disabled selected>Carregando lista de convidados...</option>
+                                </select>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="rsvp-mensagem">Deixe uma mensagem para nós (Opcional)</label>
+                                <textarea id="rsvp-mensagem" placeholder="Sua mensagem de carinho..." rows="3"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="btn-submit-rsvp">
+                                <span>Confirmar Presença</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                        
+                        <div id="rsvp-success" class="success-message hidden">
+                            <i data-lucide="check-circle"></i>
+                            <h3>Presença Confirmada!</h3>
+                            <p>Obrigado por confirmar. Mal podemos esperar para te ver em nosso novo lar!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gifts List Section -->
+        <section id="presentes" class="gifts-section reveal-fade">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Sugestões</span>
+                    <h2>Lista de Presentes</h2>
+                    <p>Sua presença é o nosso maior presente, mas se quiser nos ajudar a equipar nosso lar, aqui estão algumas sugestões.</p>
+                </div>
+                
+                <div class="pix-card reveal-up">
+                    <div class="pix-info">
+                        <i data-lucide="coins"></i>
+                        <div>
+                            <h3>Prefere presentear com Pix?</h3>
+                            <p>Se preferir nos presentear com qualquer valor simbólico em dinheiro para ajudar na nossa mudança, utilize nossa chave Pix.</p>
+                        </div>
+                    </div>
+                    <div class="pix-actions">
+                        <span class="pix-key-label">Chave Pix:</span>
+                        <div class="pix-copy-wrapper">
+                            <span class="pix-key-text" id="pix-key-val">mariovidonhoferreira@gmail.com</span>
+                            <button class="btn btn-small btn-primary" id="btn-copy-pix">
+                                <i data-lucide="copy" id="copy-icon"></i>
+                                <span id="copy-text">Copiar Chave</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gifts-carousel-wrapper reveal-up">
+                    <button class="carousel-nav-btn btn-up" aria-label="Subir presentes">
+                        <i data-lucide="chevron-up"></i>
+                    </button>
+                    
+                    <div class="gifts-carousel-viewport" id="gifts-viewport">
+                        <div class="gifts-grid" id="gifts-container">
+                            <!-- Gift items will be dynamically generated by JS -->
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-nav-btn btn-down" aria-label="Descer presentes">
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Chá de Casa Nova - Mário & Família. Todos os direitos reservados.</p>
+            <p class="maker">Feito com carinho para comemorar nossa nova jornada.</p>
+        </div>
+    </footer>
+
+    <!-- Present Confirmation Modal -->
+    <div class="modal" id="gift-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="btn-close-modal"><i data-lucide="x"></i></button>
+            <div class="modal-header">
+                <i data-lucide="heart" class="heart-icon"></i>
+                <h2>Escolher Presente</h2>
+                <p>Você escolheu presentear com: <strong id="modal-gift-name"></strong></p>
+            </div>
+            <form id="form-gift-confirm">
+                <div class="input-group">
+                    <label for="gift-user-name">Seu Nome Completo</label>
+                    <input type="text" id="gift-user-name" required placeholder="Digite seu nome">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" id="btn-submit-gift">
+                    <span>Confirmar Presente</span>
+                </button>
+            </form>
+            <div id="gift-success-msg" class="success-message hidden">
+                <i data-lucide="check-circle"></i>
+                <h3>Muito Obrigado!</h3>
+                <p>O presente foi selecionado com sucesso. Agradecemos imensamente o carinho!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script to execute icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

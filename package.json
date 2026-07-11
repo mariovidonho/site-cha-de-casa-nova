@@ -1,0 +1,17 @@
+{
+  "name": "site-cha-de-casa-nova",
+  "version": "1.0.0",
+  "description": "Landing Page para Chá de Casa Nova - Mário & Família",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
